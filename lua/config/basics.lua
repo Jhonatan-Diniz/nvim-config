@@ -10,6 +10,7 @@ vim.opt.relativenumber = true
 vim.opt.ignorecase = true -- Case-insensitive search
 vim.opt.smartcase = true -- Case-sensitive if uppercase in search
 vim.opt.termguicolors = true
+vim.opt.background = dark
 vim.opt.showmatch = true
 vim.opt.matchtime = 2
 vim.opt.list = true

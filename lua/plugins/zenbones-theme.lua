@@ -8,7 +8,7 @@ return {
     -- you can set set configuration options here
     config = function()
     	vim.g.zenbones_darken_comments = 45
-		-- vim.cmd.colorscheme("duckbones")
+		-- vim.cmd.colorscheme("zenwritten")
 		vim.api.nvim_set_hl(0, "Normal", { bg="none"})
 		vim.api.nvim_set_hl(0, "NormalNC", { bg="none"})
 		vim.api.nvim_set_hl(0, "EndOfBuffer", { bg="none"})
